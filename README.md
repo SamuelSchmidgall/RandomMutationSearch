@@ -1,8 +1,18 @@
 # RandomMutationSearch
 From Never Ending Reinforcement Learning Workshop ICML 2021
 
-Cite as:
 
+Cite the paper as:
+
+```
+X
+```
+
+
+
+Cite code as:
+
+```
 @misc{random_mutation_search,
   author = {Samuel Schmidgall},
   title = {Random Mutation Search},
@@ -11,5 +21,6 @@ Cite as:
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/SamuelSchmidgall/RandomMutationSearch}},
 }
+```
 
 
