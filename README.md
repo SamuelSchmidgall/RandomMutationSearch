@@ -12,7 +12,7 @@ The algorithm is as follows:
 (5) repeat algorithm starting at step 2.
 
 **Notice that this can be seen as a greedy genetic algorithm with an adaptive child-population size, and a parent-population size of 1.**
-e.g. if N random mutations are denied then the child population size (so far) is N since N mutations of the parent have been evaluated.
+e.g. if N random mutations are denied then the child population size (so far) is N since N mutations of the parent have been evaluated. The greedy aspect comes from the fact that the adaptive population size finishes growing once the first locally optimum solution presents itself.
 
 
 Cite the paper as:
