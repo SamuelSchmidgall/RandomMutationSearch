@@ -5,13 +5,13 @@ This work presents a simple method for self-constructing neural networks via ran
 
 The algorithm is as follows:
 
-(1) Initialize and evaluate a network of input and output neurons with no connections and set as current best, 
-(2) randomly mutate the current best network structure, 
-(3) evaluate network performance over a specified time interval, 
-(4) if the observed performance is better than the previous best network (mutation acceptancethreshold) then update best network and performance, 
+(1) Initialize and evaluate a network of input and output neurons with no connections and set as current best, \
+(2) randomly mutate the current best network structure, \
+(3) evaluate network performance over a specified time interval, \
+(4) if the observed performance is better than the previous best network (mutation acceptancethreshold) then update best network and performance, \
 (5) repeat algorithm starting at step 2.
 
-**Notice that this can be seen as a greedy genetic algorithm with an adaptive child-population size, and a parent-population size of 1.**
+**Notice that this can be seen as a greedy genetic algorithm with an adaptive child-population size, and a parent-population size of 1.**\
 e.g. if N random mutations are denied then the child population size (so far) is N since N mutations of the parent have been evaluated. The greedy aspect comes from the fact that the adaptive population size finishes growing once the first locally optimum solution presents itself.
 
 
