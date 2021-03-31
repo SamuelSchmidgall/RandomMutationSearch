@@ -1,7 +1,7 @@
 # RandomMutationSearch
 From (ICML) Never Ending Reinforcement-Learning Workshop 2021
 
-This work presents a simple method for self-constructing neural networks via random mutation. It operates in a similar manner to NEAT combined with network pruning; however, changes do not occur on the scale of generations with population search, rather the neural topology is actively modified during the agent's lifetime from experience. 
+This work presents a simple method for self-constructing neural networks via random mutation. It operates in a similar manner to NEAT combined with network pruning; however, changes do not occur on the scale of generations with population search, rather the neural topology is actively modified during the agent's lifetime from experience by deciding whether to accept random mutations. 
 
 The algorithm is as follows:
 
@@ -18,9 +18,15 @@ e.g. if N random mutations are denied then the child population size (so far) is
 Cite the paper as:
 
 ```
-X
+@misc{schmidgall2021selfconstructing,
+      title={Self-Constructing Neural Networks Through Random Mutation}, 
+      author={Samuel Schmidgall},
+      year={2021},
+      eprint={2103.15692},
+      archivePrefix={arXiv},
+      primaryClass={cs.NE}
+}
 ```
-
 
 
 Cite code as:
